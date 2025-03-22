@@ -33,18 +33,18 @@ Follow these steps to run the project locally:
    ```bash
    git clone https://github.com/ashutoshkri/Polling_API.git
    Polling_API/
-├── controllers/         # Logic for handling API requests
+├── controllers/         
 │   ├── optionsController.js
 │   └── questionsController.js
-├── models/              # Mongoose schemas for data models
+├── models/              
 │   ├── Option.js
 │   └── Question.js
-├── routes/              # API route definitions
+├── routes/             
 │   ├── options.js
 │   └── questions.js
-├── .env.example         # Example environment variables
-├── .gitignore           # Files/folders to ignore in Git
-├── index.js             # Main server file
-├── package-lock.json    # Dependency lock file
-├── package.json         # Project metadata and dependencies
-└── README.md            # Project documentation
+├── .env.example         
+├── .gitignore           
+├── index.js            
+├── package-lock.json    
+├── package.json        
+└── README.md            
