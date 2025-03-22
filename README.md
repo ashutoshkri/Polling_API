@@ -23,19 +23,28 @@ A backend API project to create, vote, and manage polls using Node.js, Express, 
 - **Postman**: Tool for testing API endpoints.
 - **dotenv**: For managing environment variables.
 ## 📂 Project Structure
-Polling_API_Project/ ├── controllers/ # Logic for handling API requests
-│ ├── optionsController.js
-│ └── questionsController.js
+
+```bash
+Polling_API_Project/
+├── controllers/         # Logic for handling API requests
+│   ├── optionsController.js
+│   └── questionsController.js
 │
-├── models/ # Mongoose schemas for data models
-│ ├── Option.js
-│ └── Question.js
+├── models/              # Mongoose schemas for data models
+│   ├── Option.js
+│   └── Question.js
 │
-├── routes/ # API route definitions
-│ ├── options.js
-│ └── questions.js
+├── routes/              # API route definitions
+│   ├── options.js
+│   └── questions.js
 │
-├── .env.example # Example environment variables
+├── .env.example         # Example environment variables
+├── .gitignore           # Files/folders to ignore in Git
+├── index.js             # Main server file
+├── package-lock.json    # Dependency lock file
+├── package.json         # Project metadata and dependencies
+└── README.md            # Project documentation
+
 ├── .gitignore # Files/folders to ignore in Git
 ├── index.js # Main server file
 ├── package-lock.json # Dependency lock file
