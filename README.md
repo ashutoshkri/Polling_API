@@ -4,14 +4,15 @@
 A backend API project to create, vote, and manage polls using Node.js, Express, and MongoDB. This project provides a RESTful API for creating polls, adding options, voting on options, viewing poll details, and deleting polls or options, with proper validation to ensure data integrity.
 
 ---
-
 ## 📌 Features
-- **Create Polls**: Add new polls with a title and multiple options.
+- **Create Questions**: Add new questions with a title and multiple options.
+- **Create Polls**: Build polls with different options attached to a question.
 - **Vote on Options**: Cast votes on poll options with a single API call.
-- **View Polls**: Retrieve poll details along with options and vote counts.
+- **View Polls/Questions**: Retrieve poll details along with options and vote counts.
 - **Delete Polls/Options**: Remove polls or options (with restrictions if votes exist).
 - **RESTful API**: Follows REST principles for CRUD operations.
 - **Error Handling**: Proper validation and error messages for invalid requests.
+
 
 ---
 
